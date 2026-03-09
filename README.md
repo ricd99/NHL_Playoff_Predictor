@@ -14,6 +14,7 @@ I love watching hockey, but I swear I've always had a bit of a jinx. It really s
 - First, I collected season-level team data dating back to the 2008-2009 season from moneypuck.com, performed some initial data exploration, and developed a few approaches to make predictions using this dataset. In addition, playoff appearance was not in the moneypuck dataset, so I manually collected that data myself.
 - For feature engineering, I tried: doing nothing (i.e. just doing the minimal amount of preprocessing for the prediction algorithms to run), manual feature engineering (by using visualizations and my (limited) domain knowledge), and feature selection using scikit-learn's RFECV.
 - For the model, I tried scikit-learn's ridge regressor, random forest, K-neighbours, gradient-boosted trees, ensembles, and stacking.
+
 The combo that gave the best results was using feature selection on a minimally preprocessed dataset (no other feture engineering) and a ridge regression model.
 
 I also uploaded the datasets I created to Kaggle, and they got a modest amount of attention there: 
