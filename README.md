@@ -24,4 +24,4 @@ I also uploaded the datasets I created to Kaggle, and they got a modest amount o
 ## Results and next steps
 Finding a way to measure my results is not the most straightforward, as sports odds can change dramatically in just a few games. I decided a reasonable metric was to see how closely my predictions resembled moneypuck.com, a site whose predictions are relied upon by many fantasy hockey general managers and sports betters. I matched 14/16 predictions, which is not bad! The main addition I want to make to this project is to integrate a real-time data pipeline. This way, the model constantly gets fresh data from the newest NHL games, and it can update its playoff odds in real-time. 
 
-My model's percentage odds can be viewed at the bottom of the final_model.ipynb file inside the notebooks folder. Unfortunately, but unsurprisingly and accurately, my canucks are dead last.
+My model's percentage odds can be viewed at the bottom of the final_model.ipynb file inside the notebooks folder. Unfortunately, but unsurprisingly and accurately, my Canucks are dead last.
